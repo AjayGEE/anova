@@ -3,15 +3,15 @@ dim(data)
 colnames(data)
 
 ##Segregating data according to experimental phase##
-e1<-data[,c(12:13,14:28)]
+e1<-data[,c(12:13,14:28)] #subsetting pretest data of phase one
 dim(e1)
 colnames(e1)
-e2<-data[,c(12:13,30:44)]
+e2<-data[,c(12:13,30:44)] ## post test data after a gap of 7 days with socially mediated information with and without company name
 colnames(e3)
-e3<-data[2:103,c(12:13,46:60)]
+e3<-data[2:103,c(12:13,46:60)] #### phase 3 initial pretest after 3 months to a select group of 103 students out to initial sample in phase 1 
 dim(e3)
 colnames(e3)
-e4<-data[2:103,c(12:13,62:76)]
+e4<-data[2:103,c(12:13,62:76)]  ####phase 4 retest after one hour along with socilly mediated information with and without company names
 dim(e4)
 colnames(e4)
 
